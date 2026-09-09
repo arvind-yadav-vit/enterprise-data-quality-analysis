@@ -18,7 +18,8 @@ In modern data infrastructure, poor data quality is not just a software bug—it
 2. **Modular Audit Engine:** Built a reusable Python ETL pipeline profiling data across 6 standard DQ dimensions: Completeness, Uniqueness, Validity, Consistency, Accuracy, and Timeliness.
 3. **Targeted Data Cleansing:** Applied advanced string mapping, format-aware date parsing, and optimized Regular Expressions (Regex) to consolidate fragmented country categories.
 4. **Financial Loss Framework:** Quantified operational failures using a comprehensive Cost-of-Poor-Quality (COPQ) model.
-5. **Executive Intelligence Reporting:** Visualized the post-cleaning data matrices and risk segments in a production-grade Power BI dashboard.
+5. **Executive Intelligence Reporting:** Visualized the post-cleaning data matrices and risk segments in a Power BI dashboard.
+
 
 ## 📈 Core Metrics & Key Findings
 
@@ -40,7 +41,7 @@ python3 scripts/generate_data.py
 python3 scripts/dq_pipeline.py
 ```
 
-## 🖥️ Live Production Dashboard View
+## 🖥️ Dashboard Preview
 ![Enterprise Dashboard Export](dashboard/dashboard_report_export.jpg)
 
 ---
