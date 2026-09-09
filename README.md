@@ -30,8 +30,7 @@ In modern data infrastructure, poor data quality is not just a software bug—it
 
 ## 💻 Technical Stack & Environment
 - **Data Engineering:** Python, Pandas, Regular Expressions (Regex), Jupyter Notebooks.
-- **Business Intelligence:** Power BI Desktop, Star Schema Modeling, Many-to-One (*:1) Relational Joins.
-- **Infrastructure:** Virtualized Windows 11 framework deployed via UTM bridge with automated SPICE WebDAV host sync.
+- **Business Intelligence:** Power BI Desktop, relational data modeling (one-to-many customer-to-order relationship).
 
 ## 🏃‍♂️ Pipeline Execution & Reproducibility
 To spin up the automated pipeline and regenerate the clean target outputs, install the environment-lock configurations and run the orchestration scripts:
